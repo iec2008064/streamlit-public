@@ -5,7 +5,7 @@ def process_text(text):
     return f"Processed: {text.upper()}"
 
 def main():
-    st.title("Gaurav's personal text processing app")
+    st.title("Gaurav's personal app")
 
     # Create a text input and a button
     col1, col2 = st.columns([3, 1])
